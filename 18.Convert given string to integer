@@ -1,0 +1,11 @@
+import java.util.*;
+class StringInteger
+{
+public static void main(String[] args) 
+{
+String num = "1234"; // change this value to test different strings
+System.out.println("string is" + num);
+int number = Integer.parseInt(num);
+System.out.println("The integer representation of " + num + " is: " + number);
+}
+}
